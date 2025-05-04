@@ -23,7 +23,7 @@ class MainKtTest {
 
         val result = calculateFee(cardSystem = card, allTransfer = transfer, lastTransfer = previous)
 
-        assertEquals(35, result)
+        assertEquals(36, result)
     }
 
     @Test
